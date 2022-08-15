@@ -27,4 +27,16 @@ numbers.push(25)
 let mixed = ['ken', 4, 'chun-li', 8, 9, true]
 mixed.push('ryu')
 mixed.push(10)
-mixed[0] = 3
+mixed[0] = 3;
+
+
+//---------------objects--------------
+
+let ninja = {
+    name: 'mario',
+    belt: 'black',
+    age: 30
+}
+console.log(ninja)
+ninja.age = 40;
+ninja.name = 'ryu';
