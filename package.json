@@ -1,0 +1,19 @@
+{
+  "name": "ts-mosh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EngrAminullah/TS-Mosh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EngrAminullah/TS-Mosh/issues"
+  },
+  "homepage": "https://github.com/EngrAminullah/TS-Mosh#readme"
+}
