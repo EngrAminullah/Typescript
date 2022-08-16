@@ -9,7 +9,7 @@ const add = (a, b, c = 10) => {
 };
 add(5, 10, '10');
 const minus = (a, b) => {
-    return a + b;
+    return a - b;
 };
 let result = minus(10, 7);
 //# sourceMappingURL=index.js.map
