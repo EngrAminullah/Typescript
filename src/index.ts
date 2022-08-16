@@ -77,41 +77,44 @@
 // nijaTwo = { name: 'mario', age: 20, beltcolor: 'black' }
 // console.log(nijaTwo)
 
-///-----------Dynamic (any) types------------------
+// ///-----------Dynamic (any) types------------------
 
 
-let age: any = 25;
+// let age: any = 25;
 
-age = true;
-console.log(age)
-age = 'hello'
-console.log(age)
-age = 25;
-console.log(age)
-age = {
-    name: 'amin'
-}
-console.log(age)
+// age = true;
+// console.log(age)
+// age = 'hello'
+// console.log(age)
+// age = 25;
+// console.log(age)
+// age = {
+//     name: 'amin'
+// }
+// console.log(age)
 
-let mixed: any[] = [];
-mixed.push(5)
-mixed.push('amin')
-mixed.push(true)
-console.log(mixed)
+// let mixed: any[] = [];
+// mixed.push(5)
+// mixed.push('amin')
+// mixed.push(true)
+// console.log(mixed)
 
 
 
-let ninja: { name: any, age: any }
+// let ninja: { name: any, age: any }
 
-ninja = { name: 'youshi', age: 25 };
-console.log(ninja)
-ninja = { name: 25, age: 'youshi' };
-console.log(ninja)
-ninja = { name: 25, age: 25 };
-console.log(ninja)
-ninja = { name: 'youshi', age: true };
-console.log(ninja)
+// ninja = { name: 'youshi', age: 25 };
+// console.log(ninja)
+// ninja = { name: 25, age: 'youshi' };
+// console.log(ninja)
+// ninja = { name: 25, age: 25 };
+// console.log(ninja)
+// ninja = { name: 'youshi', age: true };
+// console.log(ninja)
 
+console.log('test')
+
+let a = 123
 
 
 
