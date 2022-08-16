@@ -134,11 +134,12 @@
 // let result = minus(10, 7)
 
 ///-----------------type aliases---------------
-
-const logDetails = (uid: string | number, item: string) => {
+type stringOrNum = string | number;
+type objWithNAME = { name: string, uid: stringOrNum }
+const logDetails = (uid: stringOrNum, item: string) => {
     console.log(`${item} has a uid of ${uid}`)
 }
 
-const greet = (user: { name: string, uid: string | number }) => {
+const greet = (user: objWithNAME) => {
     console.log(`${user.name} says hello`)
 }
