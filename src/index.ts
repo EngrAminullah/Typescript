@@ -42,37 +42,76 @@
 // ninja.name = 'ryu';
 
 
-///---------------explicit Types--------------------------
+// ///---------------explicit Types--------------------------
 
-let character: string;
-let age: number;
-let is_published: boolean;
+// let character: string;
+// let age: number;
+// let is_published: boolean;
 
-// age='luigi';
-age = 30;
+// // age='luigi';
+// age = 30;
 
-// is_published=25;
-is_published = true;
+// // is_published=25;
+// is_published = true;
 
-//-----arrays--------
-let ninjas: string[] = [];
-ninjas.push('shaun')
+// //-----arrays--------
+// let ninjas: string[] = [];
+// ninjas.push('shaun')
 
-// ---------------Union types---------------
-let mixed: (string | number | boolean)[] = [];
-mixed.push('hello');
-mixed.push(12);
-mixed.push(false)
+// // ---------------Union types---------------
+// let mixed: (string | number | boolean)[] = [];
+// mixed.push('hello');
+// mixed.push(12);
+// mixed.push(false)
+// console.log(mixed)
+
+// //-------------objects---------------------
+// let ninjaOne: object;
+// ninjaOne = { name: 'youshi', age: 30 };
+
+// let nijaTwo: {
+//     name: string,
+//     age: number,
+//     beltcolor: string
+// }
+// nijaTwo = { name: 'mario', age: 20, beltcolor: 'black' }
+// console.log(nijaTwo)
+
+///-----------Dynamic (any) types------------------
+
+
+let age: any = 25;
+
+age = true;
+console.log(age)
+age = 'hello'
+console.log(age)
+age = 25;
+console.log(age)
+age = {
+    name: 'amin'
+}
+console.log(age)
+
+let mixed: any[] = [];
+mixed.push(5)
+mixed.push('amin')
+mixed.push(true)
 console.log(mixed)
 
-//-------------objects---------------------
-let ninjaOne: object;
-ninjaOne = { name: 'youshi', age: 30 };
 
-let nijaTwo: {
-    name: string,
-    age: number,
-    beltcolor: string
-}
-nijaTwo = { name: 'mario', age: 20, beltcolor: 'black' }
-console.log(nijaTwo)
+
+let ninja: { name: any, age: any }
+
+ninja = { name: 'youshi', age: 25 };
+console.log(ninja)
+ninja = { name: 25, age: 'youshi' };
+console.log(ninja)
+ninja = { name: 25, age: 25 };
+console.log(ninja)
+ninja = { name: 'youshi', age: true };
+console.log(ninja)
+
+
+
+
