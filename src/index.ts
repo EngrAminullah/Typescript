@@ -117,18 +117,28 @@
 // let a = 123
 
 
-let greet: Function;
-greet = () => {
-    console.log('hello a,amir')
-}
-const add = (a: number, b: number, c: number | string = 10) => {
-    console.log(a + b)
-    console.log(c)
-}
-add(5, 10, '10')
+// let greet: Function;
+// greet = () => {
+//     console.log('hello a,amir')
+// }
+// const add = (a: number, b: number, c: number | string = 10) => {
+//     console.log(a + b)
+//     console.log(c)
+// }
+// add(5, 10, '10')
 
-const minus = (a: number, b: number) => {
-    return a - b
+// const minus = (a: number, b: number) => {
+//     return a - b
+// }
+
+// let result = minus(10, 7)
+
+///-----------------type aliases---------------
+
+const logDetails = (uid: string | number, item: string) => {
+    console.log(`${item} has a uid of ${uid}`)
 }
 
-let result = minus(10, 7)
+const greet = (user: { name: string, uid: string | number }) => {
+    console.log(`${user.name} says hello`)
+}
