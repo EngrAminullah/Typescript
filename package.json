@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/EngrAminullah/TS-Mosh/issues"
   },
-  "homepage": "https://github.com/EngrAminullah/TS-Mosh#readme"
+  "homepage": "https://github.com/EngrAminullah/TS-Mosh#readme",
+  "dependencies": {
+    "start": "^5.1.0"
+  }
 }
